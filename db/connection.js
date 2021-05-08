@@ -5,7 +5,8 @@ const db = mysql.createConnection(
     {
         host: 'localhost',
         user: 'root',
-        password: 'Omnihihi1',
+        // have to enter pw to work but erasing for now
+        password: '',
         database: 'election'
     },
 );
